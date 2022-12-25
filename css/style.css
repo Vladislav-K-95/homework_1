@@ -46,10 +46,14 @@ body {
     margin: 0 auto;
 }
 
+/* HEADER */
+
 header {
     max-height: 680px;
     padding: 60px;
     background-image: url("../images/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header__top {
@@ -73,11 +77,11 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     transition: all .3s ease;
+    border-radius: 5px;
 }
 
 .nav ul a:hover {
     background-color: #130e27;
-    border-radius: 5px;
 }
 
 header .logo {
@@ -114,4 +118,11 @@ header .logo {
     font-size: 20px;
     line-height: 28px;
     color: #fff;
+}
+
+
+/* MAIN */
+
+main .container {
+    padding: 0 20px;
 }
