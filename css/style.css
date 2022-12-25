@@ -36,8 +36,6 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
     color: #130e27;
 }
 
@@ -141,11 +139,10 @@ section {
 .services__items {
     display: flex;
     justify-content: space-between;
-    gap: 120px;
 }
 
 .item {
-    min-width: 170px;
+    max-width: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
