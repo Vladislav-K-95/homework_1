@@ -123,6 +123,46 @@ header .logo {
 
 /* MAIN */
 
-main .container {
+section {
     padding: 0 20px;
+}
+
+.services__title {
+    padding: 45px 0 95px 0;
+    font-family: Couture;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.red {
+    color: #c62314;
+}
+
+.services__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.item {
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 70px;
+    text-align: center;
+}
+
+.item__icon {
+    margin-bottom: 50px;
+}
+
+.item p {
+    font-family: PTSerif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.fa {
+    font-size: 150px;
 }
