@@ -121,15 +121,15 @@ header .logo {
 
 /* MAIN */
 
-section {
-    padding: 0 20px;
-}
-
 .services__title {
     padding: 45px 0 95px 0;
     font-family: Couture;
     font-size: 50px;
     line-height: 80px;
+}
+
+.services__inner {
+    padding: 0 20px;
 }
 
 .red {
@@ -166,4 +166,32 @@ section {
 
 .story {
     background-color: #130e27;
+}
+
+.story__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 35px 0 25px 0;
+}
+
+.story__inner p {
+    width: 600px;
+    font-family: PTSerif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.btn {
+    padding: 20px 65px;
+    border-radius: 5px;
+    background-color: #c62314;
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
 }
