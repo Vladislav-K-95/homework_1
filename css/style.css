@@ -28,3 +28,90 @@
     font-weight: 700;
     src: url("../fonts/couture-bld.otf");
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: #130e27;
+}
+
+.container {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+header {
+    max-height: 680px;
+    padding: 60px;
+    background-image: url("../images/header.png");
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 160px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul a {
+    padding: 10px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.nav ul a:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+}
+
+header .logo {
+    position: relative;
+    bottom: 15px;
+    font-family: "Quite Chocolatey";
+    font-size: 88px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.header__banner {
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.header__banner h2 {
+    padding-bottom: 55px;
+    font-size: 90px;
+    line-height: 80px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.white {
+    color: #fff;
+}
+
+.header__banner p {
+    max-width: 500px;
+    padding-bottom: 160px;
+    font-family: PTSerif;;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+}
